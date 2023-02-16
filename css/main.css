@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box ;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* start responsive */
+/* small */
+@media (min-width: 768px) {
+    .cont {
+        width: 750px;
+    }    
+}
+/* medium */
+@media (min-width: 992px) {
+    .cont {
+        width: 970px;
+    }    
+}
+/* large */
+@media (min-width: 1200px) {
+    .cont {
+        width: 1170px;
+    }    
+}
+/* end responsive */
+header {
+    max-height: 50px;
+    padding-bottom: 50px;
+}
+header .pattern img {
+    width: 100%;
+    height: 200px;
+    background-size: cover; 
+}
+#sec {
+    background-image: url(../images/شاهينسسسArtboard\ 1.jpg);
+    background-size: cover;
+}
+#sec .profile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#sec .profile .rad {
+    width: 200px;
+    height: 200px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+#sec .profile img {
+    max-width: 100%;
+    border-radius: 50%;
+    border: 4px solid;
+}
+#sec .profile h1 {
+    color: rgb(180, 146, 102);
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 5px;
+}
+#sec .profile h3 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+#sec .works {
+    width: 80%;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+#sec .works .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sec .works .links .link {
+    width: 100%;
+    background-color: white;
+    padding: 15px 20px;
+    margin: 25px 0 ;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+#sec .works .links .link a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#sec .works .links #face {
+    background-color: #2374e1;
+}
+#sec .works .links #ig {
+    background-image: linear-gradient( 90deg , #bd00a7 , #e50031 ) , url(../images/tayar\ logo.png); /* #4f5bd5  */
+}
+#sec .works .links #be {
+    background-image: linear-gradient( -150deg , white , black ) , url(../images/tayar\ logo.png);
+}
+#sec .works .links #whats {
+    background-color: #25D366;
+}
+#sec .works .links .link a i {
+    font-size: 25px;
+}
+#sec .works .links .link a span {
+    margin-left: auto ;
+    margin-right: auto ;
+    font-weight: 700;
+}
+#sec .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sec .footer .cont .logo img {
+    max-width: 100%;
+}
